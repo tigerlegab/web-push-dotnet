@@ -1,7 +1,7 @@
-﻿using WebPush.Util;
+﻿using WebPushNet.Util;
 using Org.BouncyCastle.Crypto.Parameters;
 
-namespace WebPush
+namespace WebPushNet
 {
     public static class VapidHelper
     {
@@ -63,7 +63,7 @@ namespace WebPush
 
             var results = new Dictionary<string, string>
             {
-                {"Authorization", "WebPush " + token}, {"Crypto-Key", "p256ecdsa=" + publicKey}
+                {"Authorization", "WebPushNet " + token}, {"Crypto-Key", "p256ecdsa=" + publicKey}
             };
 
             return results;

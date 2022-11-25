@@ -1,4 +1,4 @@
-﻿namespace WebPush.Model
+﻿namespace WebPushNet.Model
 {
     public class InvalidEncryptionDetailsException : Exception
     {

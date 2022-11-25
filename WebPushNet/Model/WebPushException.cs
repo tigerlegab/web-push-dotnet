@@ -1,11 +1,11 @@
 ﻿using System.Net;
 using System.Net.Http.Headers;
 
-namespace WebPush
+namespace WebPushNet
 {
-    public class WebPushException : Exception
+    public class WebPushNetException : Exception
     {
-        public WebPushException(string message, PushSubscription pushSubscription, HttpResponseMessage responseMessage) : base(message)
+        public WebPushNetException(string message, PushSubscription pushSubscription, HttpResponseMessage responseMessage) : base(message)
         {
             PushSubscription = pushSubscription;
             HttpResponseMessage = responseMessage;

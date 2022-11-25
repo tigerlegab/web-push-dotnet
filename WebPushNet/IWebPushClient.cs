@@ -1,6 +1,6 @@
-﻿namespace WebPush
+﻿namespace WebPushNet
 {
-    public interface IWebPushClient : IDisposable
+    public interface IWebPushNetClient : IDisposable
     {
         /// <summary>
         ///     When sending messages to a GCM endpoint you need to set the GCM API key

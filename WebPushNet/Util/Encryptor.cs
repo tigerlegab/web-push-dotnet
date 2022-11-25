@@ -6,10 +6,10 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using System.Text;
 
-namespace WebPush.Util
+namespace WebPushNet.Util
 {
     // @LogicSoftware
-    // Originally from https://github.com/LogicSoftware/WebPushEncryption/blob/master/src/Encryptor.cs
+    // Originally from https://github.com/LogicSoftware/WebPushNetEncryption/blob/master/src/Encryptor.cs
     internal static class Encryptor
     {
         public static EncryptionResult Encrypt(string userKey, string userSecret, string payload)

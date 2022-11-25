@@ -1,4 +1,4 @@
-﻿namespace WebPush.Util
+﻿namespace WebPushNet.Util
 {
     internal static class UrlBase64
     {

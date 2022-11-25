@@ -1,9 +1,9 @@
-﻿using WebPush.Util;
+﻿using WebPushNet.Util;
 
-namespace WebPush
+namespace WebPushNet
 {
     // @LogicSoftware
-    // Originally From: https://github.com/LogicSoftware/WebPushEncryption/blob/master/src/EncryptionResult.cs
+    // Originally From: https://github.com/LogicSoftware/WebPushNetEncryption/blob/master/src/EncryptionResult.cs
     public class EncryptionResult
     {
         public byte[] PublicKey { get; set; }

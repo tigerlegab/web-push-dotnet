@@ -1,4 +1,4 @@
-﻿namespace WebPush
+﻿namespace WebPushNet
 {
     public class PushSubscription
     {

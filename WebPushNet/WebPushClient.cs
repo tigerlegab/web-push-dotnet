@@ -1,11 +1,11 @@
-﻿using WebPush.Model;
-using WebPush.Util;
+﻿using WebPushNet.Model;
+using WebPushNet.Util;
 using System.Net;
 using System.Net.Http.Headers;
 
-namespace WebPush
+namespace WebPushNet
 {
-    public class WebPushClient : IWebPushClient
+    public class WebPushNetClient : IWebPushNetClient
     {
         // default TTL is 4 weeks.
         private const int DefaultTtl = 2419200;
@@ -18,17 +18,17 @@ namespace WebPush
         // Used so we only cleanup internally created http clients
         private bool _isHttpClientInternallyCreated;
 
-        public WebPushClient()
+        public WebPushNetClient()
         {
 
         }
 
-        public WebPushClient(HttpClient httpClient)
+        public WebPushNetClient(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
-        public WebPushClient(HttpClientHandler httpClientHandler)
+        public WebPushNetClient(HttpClientHandler httpClientHandler)
         {
             _httpClientHandler = httpClientHandler;
         }
@@ -400,7 +400,7 @@ namespace WebPush
                 ? responseCodeMessage
                 : $"{responseCodeMessage}. Details: {details}";
 
-            throw new WebPushException(message, subscription, response);
+            throw new WebPushNetException(message, subscription, response);
         }
 
         public void Dispose()
@@ -415,7 +415,7 @@ namespace WebPush
                 ReleaseManagedResources();
         }
 
-        ~WebPushClient()
+        ~WebPushNetClient()
         {
             Dispose(false);
         }

@@ -4,7 +4,7 @@ using Org.BouncyCastle.Crypto.Signers;
 using System.Text;
 using System.Text.Json;
 
-namespace WebPush.Util
+namespace WebPushNet.Util
 {
     internal class JwsSigner
     {

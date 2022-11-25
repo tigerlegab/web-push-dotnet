@@ -5,7 +5,7 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.OpenSsl;
 using Org.BouncyCastle.Security;
 
-namespace WebPush.Util
+namespace WebPushNet.Util
 {
     internal static class ECKeyHelper
     {

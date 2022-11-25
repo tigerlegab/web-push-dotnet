@@ -1,4 +1,5 @@
-# web-push-dotnet
+# web-push-dotnet &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tigerlegab/web-push-dotnet/blob/main/LICENSE) [![Published on Nuget](https://img.shields.io/nuget/v/WebPushNet.svg)](https://www.nuget.org/packages/WebPushNet)
+
 Web Push library for .Net
 
 # Why

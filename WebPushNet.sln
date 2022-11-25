@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D5E16F50-5C15-4227-99F1-1E795086D1EF}") = "WebPush", "WebPush\WebPush.csproj", "{8DF2F7C3-92D5-4B49-B162-21E9C539F74B}"
+Project("{D5E16F50-5C15-4227-99F1-1E795086D1EF}") = "WebPushNet", "WebPushNet\WebPushNet.csproj", "{8DF2F7C3-92D5-4B49-B162-21E9C539F74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
